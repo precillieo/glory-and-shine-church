@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Background circle -->
+  <circle cx="32" cy="32" r="30" fill="#1a3a5c" stroke="#d4a853" stroke-width="2"/>
+  
+  <!-- Open Bible -->
+  <path d="M18 42 L32 47 L46 42 L46 30 L32 25 L18 30 Z" fill="#d4a853"/>
+  <path d="M24 35 L32 38 L40 35 L40 30 L32 27 L24 30 Z" fill="#ffffff"/>
+  
+  <!-- Flame -->
+  <path d="M32 25 L32 15" stroke="#ff6b35" stroke-width="3" stroke-linecap="round"/>
+  <path d="M27 21 Q32 11 37 21" stroke="#ff6b35" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M29 23 Q32 15 35 23" stroke="#ffb347" stroke-width="2" fill="none" stroke-linecap="round"/>
+</svg>
+
