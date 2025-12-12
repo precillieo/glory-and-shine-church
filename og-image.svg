@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <!-- Background -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f2540"/>
+      <stop offset="50%" style="stop-color:#1a3a5c"/>
+      <stop offset="100%" style="stop-color:#2a5a8c"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d4a853"/>
+      <stop offset="100%" style="stop-color:#b8860b"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="1200" height="630" fill="url(#bgGrad)"/>
+  
+  <!-- Decorative pattern -->
+  <g opacity="0.1">
+    <circle cx="100" cy="100" r="150" fill="#d4a853"/>
+    <circle cx="1100" cy="530" r="200" fill="#d4a853"/>
+  </g>
+  
+  <!-- Gold accent line -->
+  <rect x="0" y="0" width="1200" height="8" fill="url(#goldGrad)"/>
+  
+  <!-- Logo -->
+  <g transform="translate(540, 120)">
+    <circle cx="60" cy="60" r="55" fill="#1a3a5c" stroke="#d4a853" stroke-width="4"/>
+    <path d="M35 75 L60 82 L85 75 L85 55 L60 45 L35 55 Z" fill="#d4a853"/>
+    <path d="M45 62 L60 67 L75 62 L75 55 L60 50 L45 55 Z" fill="#ffffff"/>
+    <path d="M60 45 L60 30" stroke="#ff6b35" stroke-width="5" stroke-linecap="round"/>
+    <path d="M50 38 Q60 22 70 38" stroke="#ff6b35" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <path d="M54 42 Q60 28 66 42" stroke="#ffb347" stroke-width="3" fill="none" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Church Name -->
+  <text x="600" y="280" text-anchor="middle" font-family="Georgia, serif" font-size="72" font-weight="bold" fill="#ffffff">Glory and Shine</text>
+  <text x="600" y="340" text-anchor="middle" font-family="Georgia, serif" font-size="32" fill="#d4a853" letter-spacing="8">EVANGELICAL MISSION</text>
+  
+  <!-- Tagline -->
+  <text x="600" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" fill="#e8c97a">Salvation, Healing and Miracles</text>
+  
+  <!-- Scripture -->
+  <text x="600" y="500" text-anchor="middle" font-family="Georgia, serif" font-size="24" fill="rgba(255,255,255,0.7)" font-style="italic">"Jesus Christ the same yesterday, and today, and forever."</text>
+  <text x="600" y="540" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="rgba(255,255,255,0.5)">Hebrews 13:8</text>
+  
+  <!-- Bottom accent -->
+  <rect x="0" y="622" width="1200" height="8" fill="url(#goldGrad)"/>
+</svg>
+
